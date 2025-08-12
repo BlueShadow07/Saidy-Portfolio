@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Saidy Willkomm-Portfolio</title>
+</head>
+
+<body>
+    <header class="header">
+
+        <a href="#home" class="logo">Saidy Willkomm</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#aboutme">Über mich</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
+
+    </header>
+    <section class="intro">
+        <div class="intro-image">
+            <img src="1000520628.jpg" alt="Portrait von Saidy Willkomm">
+        </div>
+        <div class="intro-text">
+            <h1>Willkommen auf meinem Portfolio</h1>
+            <p>
+                Schön, dass Sie den Weg zu meinem Portfolio gefunden haben. Hier erfahren Sie mehr über meine Arbeit als
+                Finanzbuchhalterin und meine beruflichen Erfahrungen
+            </p>
+        </div>
+    </section>
+
+    <section class="aboutme" id="aboutme">
+        <div class="aboutme-text">
+            <h1>
+                Über mich
+            </h1>
+            <p>
+                Ich bin Saidy Willkomm, ausgebildete Finanzbuchhalterin mit fundierter Erfahrung in den gängigen
+                Buchhaltungssystemen wie <strong>DATEV</strong>, <strong>Lexware</strong> und <strong>SAP</strong>.
+                Neben der sicheren Anwendung von <strong>Microsoft Office</strong> verfüge ich über gute Kenntnisse in
+                <strong>Business Englisch</strong>.
+            </p>
+            <p>
+                Mein Aufgabenspektrum umfasst die <strong>Kontierung und Buchung von Belegen</strong> (Eingangs- und
+                Ausgangsrechnungen, Gutschriften, Kontoauszüge, Kassenbelege etc.), die
+                <strong>Debitoren- und Kreditorenbuchhaltung</strong> sowie die <strong>laufende
+                    Kontenabstimmung</strong>.
+                Ich erstelle und stimme <strong>Umsatzsteuervoranmeldungen</strong> ab, wirke bei
+                <strong>Monats- und Jahresabschlüssen</strong> mit und übernehme die <strong>Durchführung des
+                    Zahlungsverkehrs</strong>
+                sowie die <strong>Buchung von Bankkonten</strong>.
+            </p>
+            <p>
+                Zudem bin ich erfahren in der <strong>Pflege und Verwaltung von Stammdaten</strong>, der
+                <strong>Bearbeitung von Reisekostenabrechnungen</strong> und der <strong>Anlagenbuchhaltung</strong>
+                (Neuzugänge, Abschreibungen). Die <strong>Zusammenarbeit mit Steuerberatern und
+                    Wirtschaftsprüfern</strong>
+                gehört ebenso zu meinem Berufsalltag wie eine strukturierte und zuverlässige Arbeitsweise.
+            </p>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class='bx bx-file'></i>
+                <h3>Finanzbuchhaltung</h3>
+                <p>Kontierung, Buchung, Monats- & Jahresabschlüsse</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-laptop'></i>
+                <h3>Software</h3>
+                <p>DATEV, Lexware, SAP, Microsoft Office</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-globe'></i>
+                <h3>Business Englisch</h3>
+                <p>Professionelle Kommunikation im internationalen Umfeld</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-credit-card'></i>
+                <h3>Debitoren & Kreditoren</h3>
+                <p>Rechnungswesen, Zahlungsverkehr, Bankbuchungen</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-data'></i>
+                <h3>Datenpflege</h3>
+                <p>Stammdatenverwaltung, Reisekosten, Anlagenbuchhaltung</p>
+            </div>
+            <div class="skill-card">
+                <i class='bx bx-briefcase'></i>
+                <h3>Zusammenarbeit</h3>
+                <p>Steuerberater, Wirtschaftsprüfer, Teamarbeit</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h1>Kontakt</h1>
+        <div class="contact-container">
+            <!-- Social Links -->
+            <div class="contact-social">
+                <a href="https://www.xing.com/profile/Saidy_Willkomm2" target="_blank" rel="noopener noreferrer"
+                    class="social-btn xing" aria-label="Xing Profil">
+                    <i class='bx bxl-xing'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/saidy-willkomm-28ba33359/?originalSubdomain=de" target="_blank"
+                    rel="noopener noreferrer" class="social-btn linkedin" aria-label="LinkedIn Profil">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="mailto:saidy.willkomm@icloud.com" class="social-btn email" aria-label="E-Mail senden">
+                    <i class='bx bx-envelope'></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const nav = document.querySelector('nav');
+
+        menuIcon.addEventListener('click', () => {
+            // toggle die Klasse 'active' für die Navigation
+            nav.classList.toggle('active');
+        });
+    </script>
+
+
+    <footer class="footer">
+        <div class="footer-container">
+            <a href="impressum.html" target="_blank" rel="noopener noreferrer">Impressum</a>
+            <a href="datenschutz.html" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
