@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #f7e1c2;
+    background-color: #F5F5DC;
     /* optionaler Seitenhintergrund */
 }
 
 /* Header mit Taupe-Hintergrund */
 .header {
-    background-color: #e0b993;
+    background-color: #8B5E3C;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -41,7 +41,7 @@ nav {
 nav a {
     color: black;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: "Tuffy", sans-serif;
     font-style: normal;
     padding: 8px 15px;
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #b39475;
+    background-color: #D27D46;
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* NEU: leichte Tiefe */
@@ -101,7 +101,7 @@ nav a:hover {
     animation: wave-shadow 3s infinite ease-in-out;
     box-shadow:
         0 0 5px 2px #b39475,
-        0 0 10px 4px #d2b992,
+        0 0 10px 4px #8B5E3C,
         0 0 15px 6px #b39475;
     /* kein transform, kein top/left/right/bottom Offset */
 }
@@ -114,14 +114,14 @@ nav a:hover {
     100% {
         box-shadow:
             0 0 5px 2px #b39475,
-            0 0 10px 4px #d2b992,
+            0 0 10px 4px #8B5E3C,
             0 0 15px 6px #b39475;
     }
 
     50% {
         box-shadow:
             0 0 8px 3px #b39475,
-            0 0 15px 6px #d2b992,
+            0 0 15px 6px #8B5E3C,
             0 0 20px 8px #b39475;
     }
 }
@@ -165,11 +165,11 @@ nav a:hover {
 }
 
 .aboutme {
-    background: linear-gradient(135deg, #f7e1c2 0%, #e0b993 100%);
+    background: linear-gradient(135deg, #F5F5DC 0%, #F5F5DC 100%);
     padding: 80px 10%;
     border-radius: 20px;
     /* sanft abgerundet, wirkt freundlicher */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .aboutme-text {
@@ -205,17 +205,21 @@ nav a:hover {
     color: #444;
     margin-bottom: 20px;
     text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    word-break: normal;
 }
 
 .aboutme-text strong {
-    color: #8b6b4c;
+    color: #D27D46;
     /* etwas dunkler, damit es sich vom Verlauf abhebt */
 }
 
 
 .skills {
     padding: 60px 10%;
-    background: linear-gradient(to right, #e0b993, #f7e1c2);
+    background: linear-gradient(to right, #F5F5DC, #F5F5DC);
     text-align: center;
 }
 
@@ -231,7 +235,7 @@ nav a:hover {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #b39475;
+    background-color: #D27D46;
     margin: 10px auto 0;
 }
 
@@ -250,14 +254,14 @@ nav a:hover {
 }
 
 .skill-card:hover {
-    background-color: #b39475;
+    background-color: #D27D46;
     color: white;
     transform: translateY(-5px);
 }
 
 .skill-card i {
     font-size: 3rem;
-    color: #b39475;
+    color: #8B5E3C;
     margin-bottom: 15px;
     transition: color 0.3s ease;
 }
@@ -278,7 +282,7 @@ nav a:hover {
 
 .contact {
     padding: 60px 10%;
-    background-color: #f7e1c2;
+    background-color: #F5F5DC;
     text-align: center;
 }
 
@@ -294,7 +298,7 @@ nav a:hover {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #b39475;
+    background-color: #D27D46;
     margin: 10px auto 0;
 }
 
@@ -318,12 +322,12 @@ nav a:hover {
     border-radius: 50%;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    color: #b39475;
+    color: #D27D46;
     transition: all 0.3s ease;
 }
 
 .social-btn:hover {
-    background-color: #b39475;
+    background-color: #8B5E3C;
     color: white;
     transform: translateY(-5px);
 }
@@ -364,11 +368,11 @@ nav a:hover {
 }
 
 .contact-form button:hover {
-    background-color: #8b6f4e;
+    background-color: #8B5E3C;
 }
 
 .footer {
-    background-color: #e0b993;
+    background-color: #8B5E3C;
     /* Taupe-Farbton passend zum Header */
     padding: 20px 10%;
     text-align: center;
@@ -391,7 +395,7 @@ nav a:hover {
 }
 
 .footer a:hover {
-    color: #b39475;
+    color: #F5F5DC;
     text-decoration: underline;
 }
 
@@ -466,7 +470,7 @@ nav a:hover {
         animation: wave-shadow 3s infinite ease-in-out;
         box-shadow:
             0 0 5px 2px #b39475,
-            0 0 10px 4px #d2b992,
+            0 0 10px 4px #8B5E3C,
             0 0 15px 6px #b39475;
         z-index: 1;
     }
@@ -488,7 +492,7 @@ nav a:hover {
         position: absolute;
         top: 60px;
         right: 10%;
-        background-color: #8B7E74;
+        background-color: black;
         flex-direction: column;
         align-items: flex-start;
         padding: 10px;
@@ -499,7 +503,7 @@ nav a:hover {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        background-color: #8B7E74;
+        background-color: #8B5E3C;
         padding: 10px;
         position: absolute;
         top: 60px;
