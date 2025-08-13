@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #dfcea1;
+    background-color: #E4DDCD;
     /* optionaler Seitenhintergrund */
 }
 
 /* Header mit Taupe-Hintergrund */
 .header {
-    background-color: #A67C52;
+    background-color: #9A8375;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #D27D46;
+    background-color: #Bfa89c;
     color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     /* NEU: leichte Tiefe */
@@ -101,7 +101,7 @@ nav a:hover {
     animation: wave-shadow 3s infinite ease-in-out;
     box-shadow:
         0 0 5px 2px #b39475,
-        0 0 10px 4px #A67C52,
+        0 0 10px 4px #9A8375,
         0 0 15px 6px #b39475;
     /* kein transform, kein top/left/right/bottom Offset */
 }
@@ -114,14 +114,14 @@ nav a:hover {
     100% {
         box-shadow:
             0 0 5px 2px #b39475,
-            0 0 10px 4px #A67C52,
+            0 0 10px 4px #9A8375,
             0 0 15px 6px #b39475;
     }
 
     50% {
         box-shadow:
             0 0 8px 3px #b39475,
-            0 0 15px 6px #A67C52,
+            0 0 15px 6px #9A8375,
             0 0 20px 8px #b39475;
     }
 }
@@ -165,7 +165,7 @@ nav a:hover {
 }
 
 .aboutme {
-    background: linear-gradient(135deg, #dfcea1 0%, #dfcea1 100%);
+    background: linear-gradient(135deg, #E4DDCD 0%, #E4DDCD 100%);
     padding: 80px 10%;
     border-radius: 20px;
     /* sanft abgerundet, wirkt freundlicher */
@@ -192,7 +192,7 @@ nav a:hover {
     display: block;
     width: 60px;
     height: 4px;
-    background-color: #b39475;
+    background-color: #Bfa89c;
     margin: 8px auto 0;
     /* Strich unter Titel mittig */
     border-radius: 2px;
@@ -219,7 +219,7 @@ nav a:hover {
 
 .skills {
     padding: 60px 10%;
-    background: linear-gradient(to right, #dfcea1, #dfcea1);
+    background: linear-gradient(to right, #E4DDCD, #E4DDCD);
     text-align: center;
 }
 
@@ -235,7 +235,7 @@ nav a:hover {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #D27D46;
+    background-color: #Bfa89c;
     margin: 10px auto 0;
 }
 
@@ -254,14 +254,14 @@ nav a:hover {
 }
 
 .skill-card:hover {
-    background-color: #D27D46;
+    background-color: #Bfa89c;
     color: white;
     transform: translateY(-5px);
 }
 
 .skill-card i {
     font-size: 3rem;
-    color: #A67C52;
+    color: #9A8375;
     margin-bottom: 15px;
     transition: color 0.3s ease;
 }
@@ -282,7 +282,7 @@ nav a:hover {
 
 .contact {
     padding: 60px 10%;
-    background-color: #dfcea1;
+    background-color: #E4DDCD;
     text-align: center;
 }
 
@@ -298,7 +298,7 @@ nav a:hover {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: #D27D46;
+    background-color: #Bfa89c;
     margin: 10px auto 0;
 }
 
@@ -322,12 +322,12 @@ nav a:hover {
     border-radius: 50%;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-    color: #D27D46;
+    color: #Bfa89c;
     transition: all 0.3s ease;
 }
 
 .social-btn:hover {
-    background-color: #A67C52;
+    background-color: #9A8375;
     color: white;
     transform: translateY(-5px);
 }
@@ -368,11 +368,11 @@ nav a:hover {
 }
 
 .contact-form button:hover {
-    background-color: #A67C52;
+    background-color: #9A8375;
 }
 
 .footer {
-    background-color: #A67C52;
+    background-color: #9A8375;
     /* Taupe-Farbton passend zum Header */
     padding: 20px 10%;
     text-align: center;
@@ -470,7 +470,7 @@ nav a:hover {
         animation: wave-shadow 3s infinite ease-in-out;
         box-shadow:
             0 0 5px 2px #b39475,
-            0 0 10px 4px #A67C52,
+            0 0 10px 4px #9A8375,
             0 0 15px 6px #b39475;
         z-index: 1;
     }
