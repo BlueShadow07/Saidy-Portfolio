@@ -5,13 +5,13 @@
 }
 
 body {
-    background-color: #F5F5DC;
+    background-color: #dfcea1;
     /* optionaler Seitenhintergrund */
 }
 
 /* Header mit Taupe-Hintergrund */
 .header {
-    background-color: #8B5E3C;
+    background-color: #A67C52;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -101,7 +101,7 @@ nav a:hover {
     animation: wave-shadow 3s infinite ease-in-out;
     box-shadow:
         0 0 5px 2px #b39475,
-        0 0 10px 4px #8B5E3C,
+        0 0 10px 4px #A67C52,
         0 0 15px 6px #b39475;
     /* kein transform, kein top/left/right/bottom Offset */
 }
@@ -114,14 +114,14 @@ nav a:hover {
     100% {
         box-shadow:
             0 0 5px 2px #b39475,
-            0 0 10px 4px #8B5E3C,
+            0 0 10px 4px #A67C52,
             0 0 15px 6px #b39475;
     }
 
     50% {
         box-shadow:
             0 0 8px 3px #b39475,
-            0 0 15px 6px #8B5E3C,
+            0 0 15px 6px #A67C52,
             0 0 20px 8px #b39475;
     }
 }
@@ -165,7 +165,7 @@ nav a:hover {
 }
 
 .aboutme {
-    background: linear-gradient(135deg, #F5F5DC 0%, #F5F5DC 100%);
+    background: linear-gradient(135deg, #dfcea1 0%, #dfcea1 100%);
     padding: 80px 10%;
     border-radius: 20px;
     /* sanft abgerundet, wirkt freundlicher */
@@ -219,7 +219,7 @@ nav a:hover {
 
 .skills {
     padding: 60px 10%;
-    background: linear-gradient(to right, #F5F5DC, #F5F5DC);
+    background: linear-gradient(to right, #dfcea1, #dfcea1);
     text-align: center;
 }
 
@@ -261,7 +261,7 @@ nav a:hover {
 
 .skill-card i {
     font-size: 3rem;
-    color: #8B5E3C;
+    color: #A67C52;
     margin-bottom: 15px;
     transition: color 0.3s ease;
 }
@@ -282,7 +282,7 @@ nav a:hover {
 
 .contact {
     padding: 60px 10%;
-    background-color: #F5F5DC;
+    background-color: #dfcea1;
     text-align: center;
 }
 
@@ -327,7 +327,7 @@ nav a:hover {
 }
 
 .social-btn:hover {
-    background-color: #8B5E3C;
+    background-color: #A67C52;
     color: white;
     transform: translateY(-5px);
 }
@@ -368,11 +368,11 @@ nav a:hover {
 }
 
 .contact-form button:hover {
-    background-color: #8B5E3C;
+    background-color: #A67C52;
 }
 
 .footer {
-    background-color: #8B5E3C;
+    background-color: #A67C52;
     /* Taupe-Farbton passend zum Header */
     padding: 20px 10%;
     text-align: center;
@@ -470,7 +470,7 @@ nav a:hover {
         animation: wave-shadow 3s infinite ease-in-out;
         box-shadow:
             0 0 5px 2px #b39475,
-            0 0 10px 4px #8B5E3C,
+            0 0 10px 4px #A67C52,
             0 0 15px 6px #b39475;
         z-index: 1;
     }
